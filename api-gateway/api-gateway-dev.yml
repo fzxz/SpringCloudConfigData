@@ -1,2 +1,5 @@
-usercenter:
-  active: dev
+zuul:
+  routes:
+    api-user-center:
+      path: /api/usercenter/**
+      serviceId: user-center
