@@ -1,4 +1,4 @@
-#配置文件
-
-server:
-  port: 8080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-9001:9001/eureka/,http://eureka-9002:9002/eureka/
