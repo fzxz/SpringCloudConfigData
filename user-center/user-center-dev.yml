@@ -1,7 +1,3 @@
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka-9002:9002/eureka/,http://eureka-9001:9001/eureka/
 management:
   security:
-    enabled: false   
+    enabled: false
