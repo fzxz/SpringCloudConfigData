@@ -2,4 +2,4 @@ zuul:
   routes:
     api-user-center:
       path: /api/usercenter/**
-      serviceId: user-center
+      serviceId: feign-server
